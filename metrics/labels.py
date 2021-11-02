@@ -6,7 +6,7 @@ from sklearn.metrics import pairwise_distances_argmin_min
 from .utils import check_broadcastable
 
 
-__all__ = ['hausdorff', 'hausdorff_boundary']
+__all__ = ['hausdorff', 'hausdorff_boundary', 'min_distance', 'min_distance_boundary']
 
 
 def min_distance(pred, ref, labels=None, reduction='mean',
